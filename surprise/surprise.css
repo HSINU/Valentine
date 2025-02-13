@@ -1,0 +1,84 @@
+/* Reset default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+  font-family: 'Arial', sans-serif;
+  background: #fce4ec;
+  color: #4a148c;
+  line-height: 1.6;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Header styling */
+header {
+  margin-bottom: 20px;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  font-family: Great Vibes;
+  color: #d81b60;
+}
+
+header p {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+/* Main content styling */
+main {
+  margin: 20px 0;
+}
+
+button {
+  background-color: #d81b60;
+  color: white;
+  font-size: 1.2rem;
+  padding: 15px 25px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #c2185b;
+}
+
+#surprise-message {
+  margin-top: 20px;
+  background-color: #fff;
+  color: #d81b60;
+  padding: 20px;
+  border-radius: 10px;
+  border: 2px solid #d81b60;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#surprise-message h2 {
+  font-family: Nora;
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+#surprise-message p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+/* Footer styling */
+footer {
+  margin-top: 30px;
+  font-size: 1.1rem;
+  color: #4a148c;
+}
+
+footer p {
+  font-weight: bold;
+}
